@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# ignore uploads and upgrade:
+upggrade/
+wp-content/uploads/
+
+# ignore plugins
+wp-content/plugins
+!wp-content/plugins/wp-react-blocks
+
+# ignore specific themes
+wp-content/themes/
+
+# ignore log files and databases
+gitconfig
+error_log
+*.log
+*.sql
+*.sqlite
+.DS_Store
+db.php
+cache/
+*-cache*
+w3tc-config
