@@ -18,3 +18,7 @@ Then in your browser:
 ````
 http://localhost:2023/
 ````
+## Generate block using @wordpress/create-block
+```bash
+npx @wordpress/create-block hero --namespace wp-react-blocks --title "Hero" --short-description="For when you need a hero" --category wp-react-blocks
+````
