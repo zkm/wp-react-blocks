@@ -1,0 +1,46 @@
+{
+	"apiVersion": 2,
+	"name": "wp-react-blocks/hero",
+	"title": "Hero",
+	"category": "wp-react-blocks",
+	"icon": "smiley",
+	"description": "For when you need a hero",
+	"attributes": {
+		"headingContent": {
+			"type": "string",
+			"source": "text",
+			"selector": "h1",
+			"default": "How to build custom React Gutenberg Blocks"
+		},
+		"textContent": {
+			"type": "string",
+			"source": "text",
+			"selector": "p",
+			"default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Tortor at auctor urna nunc id cursus. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla facilisi morbi tempus iaculis. In tellus integer feugiat scelerisque varius morbi enim nunc. Arcu non sodales neque sodales ut etiam sit amet nisl. Mattis pellentesque id nibh tortor. Rhoncus urna neque viverra justo. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Felis eget nunc lobortis mattis aliquam. Urna neque viverra justo nec ultrices dui sapien."
+		},
+		"buttons": {
+			"type": "array",
+			"default": [
+			  {
+			    "text": "<a href=\"#\">Get Started</a>"
+			  }
+			]
+		},
+		"featuredImageID": {
+			"type": "number"
+		},
+		"featuredImageURL": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "src"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "hero",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

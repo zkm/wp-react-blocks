@@ -1,23 +1,9 @@
-# dependencies
-/.pnp
-.pnp.js
-
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# ignore uploads and upgrade:
-upggrade/
-wp-content/uploads/
-
-# ignore plugins
-#wp-content/plugins
-
-# ignore specific themes
-wp-content/themes/
 
 # Coverage directory used by tools like istanbul
 coverage
@@ -39,15 +25,3 @@ node_modules/
 
 # dotenv environment variables file
 .env
-
-# ignore log files and databases
-gitconfig
-error_log
-*.log
-*.sql
-*.sqlite
-.DS_Store
-db.php
-cache/
-*-cache*
-w3tc-config

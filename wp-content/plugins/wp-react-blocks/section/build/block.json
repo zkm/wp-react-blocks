@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wp-react-blocks/section",
+  "version": "0.1.0",
+  "title": "Section",
+  "category": "wp-react-blocks",
+  "icon": "smiley",
+  "description": "Basic section that displays in a TOC",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "section",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

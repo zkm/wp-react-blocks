@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-react-blocks/page",
+	"version": "0.1.0",
+	"title": "Page",
+	"category": "wp-react-blocks",
+	"icon": "smiley",
+	"description": "Basic page",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "page",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"sections": {
+			"type": "array",
+			"default": []
+		},
+		"author": {
+			"type": "object",
+			"default": ""
+		},
+		"postDate": {
+			"type": "string",
+			"default": ""
+		},
+		"postDateFormatted": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}
